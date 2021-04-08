@@ -1,0 +1,32 @@
+.container {
+    background-color: bisque;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: burlywood;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+header h1 {
+ margin-left: 15px;
+}
+header div {
+    margin-right: 15px;
+}
+.title {
+    background-color: cornflowerblue;
+    width: 60vh;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.metodologia {
+background-color: rgb(159, 196, 60);
+clip-path:polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
+height: 100vh;
+margin-top: 450px;
+}
