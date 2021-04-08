@@ -18,6 +18,13 @@ header {
 header h1 {
   margin-left: 60px;
 }
+.btn{
+  width: 100px;
+  height: 40px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+}
 header div {
   margin-right: 15px;
 }
@@ -31,7 +38,37 @@ header div {
   background-color: #a6f0c6;
   clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
   height: 100vh;
+  padding: 20px;
   margin-top: 450px;
+  position: relative;
+  
+}
+.metodologia h2{
+  padding-top: 120px;
+  font-size: 40px;
+  color: #0f1123;
+}
+.metodologia ul li {
+  margin: 20px;
+  color: #0f1123;
+}
+.metodologia ul {
+  padding-left: 20px;
+}
+.metodologia img {
+  position: absolute;
+  width: 300px;
+}
+.programing {
+  right: 20px;
+  top:40px
+}
+.scrum {
+  right: 20px;
+  top:400px
+}
+.canva {
+  bottom: 200px;
 }
 .bases {
   background-color: #a6f0c6;
@@ -64,12 +101,18 @@ header div {
   align-items: center;
   font-size: 40px;
 }
+.foto div p {
+  padding: 5px;
+  background-color: #A98B98;
+  opacity: 0.8;
+}
 .foto div:hover {
   opacity: 1;
 }
 .foto:hover {
-  opacity: 0.5;
+  background-color: gold;
 }
+
 .sliders .foto img {
   height: 400px;
   width: 400px;
