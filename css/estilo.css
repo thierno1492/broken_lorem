@@ -29,10 +29,19 @@ header div {
   margin-right: 15px;
 }
 .title {
-  width: 60vh;
-  margin-left: 75px;
-  margin-top: 30px;
+  width: 120vh;
+  margin-left: 300px;
+  margin-top: 120px;
   font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  
+
+  
+}
+.title :hover {
+opacity: 3%;
+background-color: pink;
 }
 .metodologia {
   background-color: #a6f0c6;
@@ -58,6 +67,19 @@ header div {
 .metodologia img {
   position: absolute;
   width: 300px;
+  align-content:center;
+  justify-content: space-around;
+}
+
+.metodologia h2 {
+  text-align: center;
+  font-size: 70px;
+  position: absolute;
+  padding-top: 10%;
+}
+.tecno {
+  width: 500px; 
+  margin-top:2000px;
 }
 .programing {
   right: 20px;
@@ -127,4 +149,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.foto1{
+   background-color: white;
+   width: 50px;
+   
 }
