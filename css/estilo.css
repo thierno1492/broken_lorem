@@ -1,12 +1,13 @@
 .container {
-    background-color: bisque;
+    background-color: #4E3D53;
 }
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 header {
-    background-color: burlywood;
+    
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -21,12 +22,46 @@ header div {
 .title {
     background-color: cornflowerblue;
     width: 60vh;
-    margin-left: 30px;
+    margin-left: 75px;
     margin-top: 30px;
+    font-size: 35px;
 }
 .metodologia {
 background-color: rgb(159, 196, 60);
 clip-path:polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
 height: 100vh;
 margin-top: 450px;
+}
+
+.tecnologia {
+    height: 80vh;
+}
+
+.bases {
+    background-color: rgb(159, 196, 60);
+    height: 100vh;
+    clip-path: polygon(50% 57%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+}
+
+.sliders {
+    
+    background-color: tomato ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    background-color: teal;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    clip-path: circle();
+    z-index: 10;
+}
+
+.sliders .foto img {
+    height: 400px;
+    width: 400px
 }
