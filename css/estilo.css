@@ -7,26 +7,28 @@
   color: white;
 }
 header {
+  background-color: #a98b98;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+  font-family:'VT323', monospace;
+  font-size: 60px;
 }
 header h1 {
-  margin-left: 15px;
+  margin-left: 60px;
 }
 header div {
   margin-right: 15px;
 }
 .title {
-  background-color: cornflowerblue;
   width: 60vh;
   margin-left: 75px;
   margin-top: 30px;
   font-size: 35px;
 }
 .metodologia {
-  background-color: rgb(159, 196, 60);
+  background-color: #a6f0c6;
   clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
   height: 100vh;
   margin-top: 450px;
@@ -37,13 +39,12 @@ header div {
 }
 
 .bases {
-  background-color: rgb(159, 196, 60);
+  background-color: #a6f0c6;
   height: 100vh;
   clip-path: polygon(50% 57%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
 }
 
 .sliders {
-  background-color: tomato;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -56,7 +57,6 @@ header div {
   clip-path: circle();
   position: relative;
   height: auto;
-  background-color: chartreuse;
 }
 .foto div {
   opacity: 0;
@@ -73,14 +73,14 @@ header div {
   opacity: 1;
 }
 .foto:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }
 .sliders .foto img {
   height: 400px;
   width: 400px;
 }
 footer {
-  background-color: #c4c4c4;
+  background-color: #0f1123;
   height: 10vh;
   display: flex;
   justify-content: space-around;
