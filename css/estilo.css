@@ -12,7 +12,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  font-family:'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 60px;
 }
 header h1 {
@@ -92,10 +92,6 @@ background-color: pink;
 .canva {
   bottom: 200px;
 }
-.tecnologia {
-  height: 80vh;
-}
-
 .bases {
   background-color: #a6f0c6;
   height: 100vh;
@@ -150,8 +146,28 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-.foto1{
-   background-color: white;
-   width: 50px;
-   
+.tecnologias {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 10vh;
+  }
+.tecnologias h2 {
+  text-align: center;
+  position: absolute;
+  margin-bottom: 550px;
+  font-size: xx-large;
+  margin-top: 200px;
+}
+.tecno {
+  width: 200px;
+  margin-top: 500px;
+  size: 700px;
+  margin-left: 700;
+}
+.tecno:hover {
+  opacity: 0.5;
 }
