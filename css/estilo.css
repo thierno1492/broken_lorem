@@ -7,7 +7,6 @@
     color: white;
 }
 header {
-    
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -27,10 +26,10 @@ header div {
     font-size: 35px;
 }
 .metodologia {
-background-color: rgb(159, 196, 60);
-clip-path:polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
-height: 100vh;
-margin-top: 450px;
+    background-color: rgb(159, 196, 60);
+    clip-path:polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
+    height: 100vh;
+    margin-top: 450px;
 }
 
 .tecnologia {
@@ -54,14 +53,34 @@ margin-top: 450px;
 
 .foto {
     background-color: teal;
-    height: 400px;
-    width: 400px;
-    margin: 30px;
+    height: 300px;
+    width: 300px;
+    margin: 20px 60px;
     clip-path: circle();
-    z-index: 10;
+    position: relative;
+}
+.foto div {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto div:hover {
+    opacity: 1;
 }
 
 .sliders .foto img {
     height: 400px;
     width: 400px
+}
+footer {
+    background-color: #C4C4C4;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
