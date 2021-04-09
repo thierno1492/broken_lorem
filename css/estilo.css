@@ -12,7 +12,7 @@
 
 header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   background-color: #a98b98;
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@ background-color: pink;
 .metodologia {
   background-color: #a6f0c6;
   clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
-  height: 85vh;
+  height: 42vw;
   padding: 20px;
   margin-top: 45px;
   position: relative;
@@ -97,10 +97,6 @@ background-color: pink;
   justify-content: space-around;
 }
 
-.tecno {
-  width: 500px; 
-  margin-top:2000px;
-}
 .programing {
   right: 20px;
   top:40px
@@ -115,10 +111,10 @@ background-color: pink;
 .bases {
   display: flex;
   background-color: #a6f0c6;
-  height: 100vh;
-  clip-path: polygon(50% 57%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+  clip-path: polygon(50% 40%, 100% 22%, 100% 100%, 0 100%, 0% 25%);
   padding: 60px;
   padding-top: 40vh;
+  margin-top: -222px;
   justify-content: space-between;
   color: #0f1123;
 }
@@ -193,26 +189,14 @@ background-color: pink;
   width: 400px;
 }
 
-footer {
-  background-color: #0f1123;
-  height: 10vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-}
-
 .foto1 { 
   background-color: white; width: 50px; 
 }
 
 .tecnologias {
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 100px;
+  padding: 0 100px;
   }
 
 .tecnologias h2 {
@@ -222,10 +206,18 @@ footer {
 
 .tecno {
   width: 200px;
-  margin-top: 500px;
-  margin-left: 700;
+  margin-top: 150px;
 }
 
 .tecno:hover {
   opacity: 0.5;
+}
+
+footer {
+  background-color: #0f1123;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
 }
