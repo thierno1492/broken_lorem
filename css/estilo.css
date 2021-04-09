@@ -17,7 +17,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
   z-index: 5;
 }
 
@@ -65,35 +64,39 @@ background-color: pink;
 .metodologia {
   background-color: #a6f0c6;
   clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 15%);
-  height: 100vh;
+  height: 85vh;
   padding: 20px;
-  margin-top: 450px;
+  margin-top: 45px;
   position: relative;
   
 }
 .metodologia h2{
-  padding-top: 120px;
+  padding-top: 80px;
+  text-align: center;
   color: #0f1123;
 }
 .metodologia ul li {
-  margin: 20px;
+  list-style:none;
   color: #0f1123;
 }
 .metodologia ul {
-  padding-left: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
 }
-.metodologia img {
-  position: absolute;
+.metodologia div {
+  margin:  20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.metodologia div img {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   width: 300px;
+  height: 200px;
   align-content:center;
   justify-content: space-around;
 }
 
-.metodologia h2 {
-  text-align: center;
-  position: absolute;
-  padding-top: 10%;
-}
 .tecno {
   width: 500px; 
   margin-top:2000px;
@@ -153,7 +156,7 @@ background-color: pink;
 
 .foto {
   width: auto;
-  margin: 20px 60px;
+  margin: 20px 20px;
   clip-path: circle();
   position: relative;
   height: auto;
@@ -196,6 +199,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0;
 }
 
 .foto1 { 
@@ -225,4 +229,3 @@ footer {
 .tecno:hover {
   opacity: 0.5;
 }
-
